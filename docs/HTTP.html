@@ -7,48 +7,30 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
 <body>
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
     <div class="container-xl">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYuJkVlzoimJOo5nwSy3lmWfsDkqW6tB-_sA&usqp=CAU" alt="" width="30" height="24">
+      How the Internet Works
       </a>
 
       <div class="collapse navbar-collapse" id="navbarsExample07XL">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Topics</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-              <li><a class="dropdown-item" href="#">Packets & Routing</a></li>
-              <li><a class="dropdown-item" href="#">IP Addresses</a></li>
-              <li><a class="dropdown-item" href="#">Domain Names</a></li>
-              <li><a class="dropdown-item" href="#">ICANN</a></li>
-              <li><a class="dropdown-item" href="#">Domain Name System</a></li>
-              <li><a class="dropdown-item" href="#">HTTP & HTTP Protocols</a></li>
-              <li><a class="dropdown-item" href="#">W3C</a></li>
-              <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
-
-            </ul>
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" aria-current="page" href="about.html">About</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container-xl mb-4">
-    <div class="starter-template text-center py-5 px-3">
-    <h1>How the Internet Works</h1>
-    </div>
-    <p>Matching .container-xl...</p>
-  </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -59,8 +41,88 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
-</div>
+
 </header>
 
+<div class="container-xl mb-4">
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="Packets&Routing.html">Packets & Routing</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="IP_Addresses.html">IP Addresses</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Domain_names.html">Domain Names</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="ICANN.html">ICANN</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="DNS.html">DNS</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link active" href="HTTP.html">HTTP & HTTP Protocols</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="W3C.html">W3C</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="HTML&CSS.html">HTML & CSS</a>
+  </li>
+
+</ul>
+<br>
+
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Internet1.svg/440px-Internet1.svg.png" class="rounded float-end" width="450" height="350">
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-11">
+        <h4>HTTP</h4>
+        <hr>
+        <h6>Definition:</h6>
+        <p>HTTP stands for <b>Hypertext Transfer Protocol</b>. The language used to communicate between web browsers and servers.If you intercept the connection between your computer and server it is mainly made of GET requests. It is an application-level protocol for distributed, collaborative, hypermedia information systems.</p>
+        <h6>Example:</h6>
+        <p>When you open any browser any type any link to website and the server replies to the request in http format.If you want to get some information from any website. If you type GET and website name you are asking the html code for that particular page. </p>
+        <h6>Uses:</h6>
+        <ul>
+          <li>It is used to deliver data on world wide web.</li>
+          <li>Provides a standardized way for computers to communicate with each other.</li>
+
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <img src="https://www.concurrency.com/getattachment/baa462c8-ac8e-49af-91ce-bc37e4234f31/http.png.aspx?lang=en-US"class="rounded float-end" width="450" height="350">
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-11">
+        <h4>HTTP Protocol</h4>
+        <hr>
+        <h6>Definition:</h6>
+        <p>The HTTP protocol is a request/response protocol based on the client/server based architecture where web browsers, robots and search engines, etc. act like HTTP clients, and the Web server acts as a server.</p>
+      <p>  Client:
+The HTTP client sends a request to the server in the form of a request method, URI, and protocol version, followed by a MIME-like message containing request modifiers, client information, and possible body content over a TCP/IP connection.</p>
+
+</p>Server:
+The HTTP server responds with a status line, including the message's protocol version and a success or error code, followed by a MIME-like message containing server information, entity meta information, and possible entity-body content.</p>
+        <h6>Example:</h6>
+        <p>As you see the second image, the client is first requesting the server to make connection if server accepts it sends acknowledgement back to client. After that the data is send. </p>
+        <h6>Uses:</h6>
+        <ul>
+          <li>It defines a standard way of communication between devices.</li>
+          <li>It helps in prioritizing the old request arrived.</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</div>
 </body>
 </html>
