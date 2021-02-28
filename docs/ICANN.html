@@ -7,48 +7,30 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
 <body>
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
     <div class="container-xl">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYuJkVlzoimJOo5nwSy3lmWfsDkqW6tB-_sA&usqp=CAU" alt="" width="30" height="24">
+      How the Internet Works
       </a>
 
       <div class="collapse navbar-collapse" id="navbarsExample07XL">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Topics</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-              <li><a class="dropdown-item" href="#">Packets & Routing</a></li>
-              <li><a class="dropdown-item" href="#">IP Addresses</a></li>
-              <li><a class="dropdown-item" href="#">Domain Names</a></li>
-              <li><a class="dropdown-item" href="#">ICANN</a></li>
-              <li><a class="dropdown-item" href="#">Domain Name System</a></li>
-              <li><a class="dropdown-item" href="#">HTTP & HTTP Protocols</a></li>
-              <li><a class="dropdown-item" href="#">W3C</a></li>
-              <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
-
-            </ul>
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" aria-current="page" href="about.html">About</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container-xl mb-4">
-    <div class="starter-template text-center py-5 px-3">
-    <h1>How the Internet Works</h1>
-    </div>
-    <p>Matching .container-xl...</p>
-  </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -59,8 +41,65 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
-</div>
+
 </header>
 
+<div class="container-xl mb-4">
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="Packets&Routing.html">Packets & Routing</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="IP_Addresses.html">IP Addresses</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Domain_names.html">Domain Names</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link active" href="ICANN.html">ICANN</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="DNS.html">DNS</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="HTTP.html">HTTP & HTTP Protocols</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="W3C.html">W3C</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="HTML&CSS.html">HTML & CSS</a>
+  </li>
+
+</ul>
+<br>
+
+          <img src="data:image/png;base64,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" class="rounded float-end" width="450" height="350">
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-11">
+        <h4>ICANN</h4>
+        <hr>
+        <h6>Definition:</h6>
+        <p>ICANN stands for <u>Internet Corporation for Assigned Names and Numbers</u>. It is nonprofit organization responsible for coordinating the maintenance and procedures of several databases related to the namespaces and numerical spaces of the Internet, ensuring the network's stable and secure operation.</p>
+
+
+        <h6>Example:</h6>
+        <p>To reach another person on the Internet you have to type an address into your computer -- a name or a number. That address must be unique so computers know where to find each other. ICANN coordinates these unique identifiers across the world. Without that coordination, we wouldn't have one global Internet.</p>
+        <h6>Uses:</h6>
+        <ul>
+          <li>The coordination of the assignment of technical protocol parameters including the management of the address and routing parameter area (ARPA) top-level domain.</li>
+          <li>The administration of certain responsibilities associated with Internet DNS root zone management such as generic (gTLD) and country code (ccTLD) Top-Level Domains.</li>
+          <li>The allocation of Internet numbering resources.</li>
+
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
 </body>
 </html>
